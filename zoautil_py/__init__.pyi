@@ -1,0 +1,2 @@
+ZOAU_API_VERSION: str
+__version__ = ZOAU_API_VERSION

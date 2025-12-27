@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include INSTALL.md
+include QUICKSTART.md
+recursive-include zoautil_py *.pyi
+include zoautil_py/py.typed

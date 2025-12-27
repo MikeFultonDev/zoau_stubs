@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zoautil-py-stubs"
+version = "1.0.0"
+description = "Type stubs for IBM Z Open Automation Utilities (ZOAU) Python package"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["zoau", "z/OS", "stubs", "type hints", "IBM"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/zoau_stubs"
+Repository = "https://github.com/yourusername/zoau_stubs"
+
+[tool.setuptools]
+packages = ["zoautil_py"]
+
+[tool.setuptools.package-data]
+zoautil_py = ["*.pyi", "py.typed"]
