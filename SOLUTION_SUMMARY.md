@@ -102,7 +102,7 @@ datasets.create("MY.DATASET", type="PS")
 ## Next Steps
 
 1. **Restart VS Code** to ensure it picks up the new package
-2. **Open a Python file** in your batchtsocmd or other ZOAU project
+2. **Open a Python file** in your ZOAU project
 3. **Type `from zoautil_py import`** and verify you see autocomplete
 4. **Enjoy full IntelliSense** while developing!
 
